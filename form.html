@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div id="contenedor">
+        <form action="" method="post">    
+            <p>
+            <label for="nombre">Nombre</label> <br> 
+            <input type="text" id="nombre" name="nombre" autofocus required placeholder="Proporcione su nombre"> 
+            </p>
+            <p> 
+            <label for="apellidos">Apellidos</label>  <br>
+            <input type="text" id="apellidos" size="40" name="apellidos" required placeholder="Proporcione sus apellidos"> 
+            </p>
+            <p>
+                <p>
+                    <label for="estatus">Estatus</label> <br> 
+                    <input type="text" name="estatus" value="activo" readonly title="Este vallor es solo de lectura"> <!--   read only solo muestra la cajita con un valor de lectura -->
+                </p>
+            </p>
+            <p>
+                <label for="contraseña">su contraseña</label> <br>
+                <input type="password" id="contraseña" name="contraseña" required placeholder="Ejemplo=Antonio50#">
+            </p>
+            <p>
+                <input type="hidden" name="nip" value="769">
+            </p>
+            <p> <br>
+                <label for="navegador">Navegadr Favorito</label>
+                <select id="navegador" name="navegador" required>
+                    <option value="chrom">Google chrom</option>
+                    <option value="opera">Opera</option>
+                    <option value="edge">Edge</option>
+                    <option value="safari">Safari</option>
+                    <option value="firefox">Firefox</option>
+                </select>
+            </p>
+            <input type="submit" name="enviar" value="Enviar"> 
+        </form>
+    </div>
+</body>
+</html>
