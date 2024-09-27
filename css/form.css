@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#contenedor{
+    width: 90%;
+    margin: 10px auto;
+}
+#contenedorcon{
+    float: left;
+    margin-left: 20%;
+    width: 60%;
+    border: 1px gray solid;
+    background-color: rgba(220, 220, 220, 0.219);
+}
+body{
+    background-color: rgb(253, 245, 245);
+}
+footer{
+    float: left;
+    margin-top: 2cqw;
+    width: 100%;
+    height: 20%;
+}
+#encabezado {
+    height: 10%;
+    border: 1px gainsboro solid;
+}
+#foto{
+    box-sizing: border-box;
+    width: 60%;
+    height: 60%;
+    margin-left: 35%;
+    background-color: transparent;
+}
+#perfil{
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: transparent;
+}
+#name{
+    float: left;
+    height: 9%;
+    width: auto;
+    margin-left: 10%;
+    background-color: transparent;
+}
+#addres{
+    float: left;
+    height: 9%;
+    width: 72.5%;
+    margin-left: 10%;
+    background-color: transparent;
+}
+#direccion{
+    width: 99.5%;
+    background-color: transparent;
+}
+#state{
+    float: left;
+    margin-left: 10%;
+    height: 9%;
+    width: 72.5%;
+    background-color: transparent;
+}
+#info{
+    float: left;
+    margin-left: 10%;
+    height: 9%;
+    width: 72.5%;
+    background-color: transparent;
+}
+#coment{
+    float: left;
+    margin-left: 10%;
+    height: 9%;
+    width: 72.5%;
+    background-color: transparent;
+}
+#comentario{
+    width: 99%;
+    background-color: transparent;
+}
+#aceptar{
+    width: 100%;
+    background-color: transparent;
+
+}
